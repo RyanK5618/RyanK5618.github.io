@@ -1,0 +1,30 @@
+USERS STORY/GAMEPLAY
+Describe the gameplay
+-The gameplay would be like the ball would hit the paddles if the player put the paddle in the direction where the ball is going
+and the player would have to outsmart the other player to win.
+
+What are the conditions when the game begins?
+- Game ends when one of the players have the certain amount to win.
+
+Does the game have an end? If so, what are the conditions for when it ends?
+- Game does have a end when one of the players get the amount of points to win.
+
+What ifs will there be?
+- if the player misses the ball they will not get the point but the other player will get the point.
+
+Visual Game Components:
+What are the visual game components? For example, in Bouncing Box, the game components were the board and the box.
+- The paddles, the ball, and the board.
+Which will be static? (the board)
+- the board
+Which will be animated? (the box)
+- The paddles and the ball.
+What data will you need to manage each game component? For example, in Bouncing Box, the data values were positionX, speedX, and points.
+- positionX, positionY, and points
+Events / Logic
+What events will occur in this game? (timer events, keyboard events, clicking events?)
+- keyboard events 
+How do those events affect the data of the program?
+- it affects the data by changing where the ball goes and the paddle moves to change the direction.
+For each "event", write out the high-level logic of what will happen. It is better (and tricky) to be as specific as you can while remaining high-level!
+- The point total goes up by 1 and is displayed on the scoring box.
