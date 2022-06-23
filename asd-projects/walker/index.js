@@ -44,6 +44,7 @@ function runProgram(){
     repositionGameItem();
     redrawGameItem();
     checkforBorderCollision();
+    endGame();
   }
   
   /* 
