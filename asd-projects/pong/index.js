@@ -8,15 +8,15 @@ function runProgram(){
   ////////////////////////////////////////////////////////////////////////////////
 
   // Constant Variables
-  const FRAME_RATE = 60;
-  const FRAMES_PER_SECOND_INTERVAL = 1000 / FRAME_RATE;
+  //const FRAME_RATE = 60;
+  //const FRAMES_PER_SECOND_INTERVAL = 1000 / FRAME_RATE;
  
    
   // Game Item Objects
   
 
   // one-time setup
-  let interval = setInterval(newFrame, FRAMES_PER_SECOND_INTERVAL);   // execute newFrame every 0.0166 seconds (60 Frames per second)
+     // execute newFrame every 0.0166 seconds (60 Frames per second)
   //$(document).on('keydown', addEventListener);
                           
   
@@ -37,8 +37,8 @@ startBall();
    var positionOfPaddle2 = 200;
    var topPositionOfBall = 150;
    var leftPositionOfBall = 150;
-   var topSpeedOfBall = 10;
-   var leftSpeedOfBall = 0;
+   var topSpeedOfBall = 4;
+   var leftSpeedOfBall = 5;
    var score1 = 0;
    var score2 = 0; 
 
@@ -113,7 +113,7 @@ startBall();
       document.getElementById('comp-paddle').style.top = positionOfPaddle2 + 'px';
      
       document.getElementById('ball').style.top = topPositionOfBall + 'px';
-      document.getElementById('ball').style.top = leftPositionOfBall + 'px';
+      document.getElementById('ball').style.left = leftPositionOfBall + 'px';
     }, 1000/60)
   
   
@@ -124,7 +124,7 @@ startBall();
   
   //function endGame() {
     // stop the interval timer
-    clearInterval(interval);
+    
 
     // turn off event handlers
     //$(document).off();
