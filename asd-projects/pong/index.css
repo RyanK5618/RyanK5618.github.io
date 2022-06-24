@@ -4,8 +4,8 @@ body {
 }
 
 #board {
-  width: 440px;
-  height: 440px;
+  width: 1880px;
+  height: 920px;
   border: 1px solid white;
   background-color: black;
   position: absolute; 
@@ -22,11 +22,11 @@ body {
 }
 
 #user-score{
-left: 150px;
+left: 800px;
 }
 
 #comp-score{
-left: 270px;
+left: 950px;
 }
 
 #user-paddle{
